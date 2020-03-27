@@ -7,7 +7,7 @@
     "watch": "gulp watch"
   },
   "repository": "git+https://github.com/sergey280680/sass-animator.git",
-  "author": "sergey280680",
+  "author": "sergey280680 <sergey280680@mail.ru>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sergey280680/sass-animator/issues"
