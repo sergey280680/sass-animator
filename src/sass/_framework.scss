@@ -1,0 +1,115 @@
+
+
+body {
+  font-family: 'Sarabun', sans-serif;
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  //padding: 0;
+  padding: 15px;
+}
+header,
+section{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3,
+h4, h5, h6 {
+  display: block;
+  font-family: 'Sarabun', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+a, button {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  border: 0;
+}
+button:hover {
+  transform: scale(1.01) scale(1);
+}
+a:active,
+a:hover,
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #B08D57;
+  color: #fff;
+  width: 100px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+// === forms === //
+.form {
+  display: block;
+  width: 250px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+
+}
+.form:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form:-ms-input-placeholder {
+  color: #999;
+}
+.form::-webkit-input-placeholder {
+  color: #999;
+}
+.form::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  fill: mediumpurple;
+  cursor: pointer;
+}
+.icon:hover {
+  transform: scale(1.01) scale(1.05);
+}
+
+
+
+
+
