@@ -6,10 +6,7 @@
   "scripts": {
     "watch": "gulp watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergey280680/sass-animator.git"
-  },
+  "repository": "git+https://github.com/sergey280680/sass-animator.git",
   "author": "sergey280680",
   "license": "ISC",
   "bugs": {
