@@ -6,8 +6,8 @@ body {
   font-style: normal;
   font-weight: normal;
   margin: 0;
-  //padding: 0;
-  padding: 15px;
+  padding: 0;
+
 }
 header,
 section{
@@ -98,6 +98,8 @@ a:link {
   background-color: transparent;
   border: 0;
 }
+
+// === icon === //
 .icon {
   display: inline-block;
   width: 30px;
@@ -108,7 +110,32 @@ a:link {
 .icon:hover {
   transform: scale(1.01) scale(1.05);
 }
-
+.fa:before {
+  cursor: pointer;
+}
+.fa:hover {
+  transform: scale(1.01) scale(1.05);
+}
+.fa-twitter,
+.fa-twitter-square {
+  color: #3FA6DB;
+}
+.fa-odnoklassniki,
+.fa-odnoklassniki-square {
+  color: #F49327;
+}
+.fa-youtube,
+.fa-youtube-play,
+.fa-youtube-square {
+  color: #F80000;
+}
+.fa-vk {
+  color: #4F7DB3;
+}
+.fa-paper-plane,
+.fa-telegram {
+  color: #31A5D8;
+}
 
 
 

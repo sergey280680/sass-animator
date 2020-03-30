@@ -40,9 +40,6 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const minify = require('gulp-cssnano');
 
-// SVGs
-const svgmin = require('gulp-svgmin');
-
 // BrowserSync
 const browserSync = require('browser-sync');
 
@@ -71,13 +68,6 @@ const buildStyles = function (done) {
 
 };
 
-
-// Optimize SVG files
-const buildSVGs = function (done) {
-    return src(paths.svgs.input)
-        .pipe(svgmin())
-        .pipe(dest(paths.svgs.output));
-};
 
 
 const copyFiles = function (done) {
@@ -117,7 +107,6 @@ exports.default = series(
     cleanDist,
     parallel(
         buildStyles,
-        buildSVGs,
         copyFonts,
         copyFiles
     )
